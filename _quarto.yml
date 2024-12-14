@@ -3,16 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "mattbeckstrom.github.io"
+  title: "Matt Beckstrom"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - Writing.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: jolla
     css: styles.css
     toc: true
 
