@@ -13,7 +13,7 @@ website:
 
 format:
   html:
-    theme: jolla
+    theme: solar
     css: styles.css
     toc: true
 
