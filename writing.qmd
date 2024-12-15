@@ -1,3 +1,20 @@
 ---
 title: "Writing"
 ---
+
+Lund, B.D., & Beckstrom, M.A. (2022). A guide to Using the Anonymous Web in Libraries and Information
+Organizations: Enhancing Patron Privacy and Information Access (Co-Author) , London, UK: Routledge.
+Valenti, S.J., Lund, B.D., & Beckstom, M.A. (2022). Library patrons privacy: Questions and
+answers. Santa Barbara, CA: ABC-Clio/Libraries Unlimited.
+Brady Lund & Matt Beckstrom (2021). The Integration of Tor into Library Services: An Appeal to the Core Mission and
+Values of Libraries, Public Library Quarterly, 40:1, 60-76, DOI: 10.1080/01616846.2019.1696078
+Beckstrom, M (2019). Casting Light on the Dark Web: A Guide for Safe Exploration (Co-Author)
+Rowan & Littlefield.
+William Marden, Jason Griffey, Erin Berman, Sarah Houghton, Jessamyn West, Eric Hellman, T.J. Lamanna, & Matt
+Beckstrom (2019). Choose Privacy Week 2018: Big Data is Watching You. Journal of Intellectual Freedom & Privacy,
+4:1, DOI: https://doi.org/10.5860/jifp.v4i1.6885.
+Beckstrom, M (2017). Protecting Patron Privacy: A LITA Guide (contributor)
+Rowan & Littlefield .
+Beckstrom, M (2016). LITA Privacy Checklists, Library and Information Technology Association.
+Beckstrom, M. (2015). Protecting Patron Privacy: Safe Practices for Public Computers.
+Libraries Unlimited.
