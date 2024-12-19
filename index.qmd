@@ -1,9 +1,8 @@
 ---
-image: ./images/matt.png
-about:
-  template: jolla
----
+// image: ./images/matt.png
 
+---
+  
 Matt Beckstrom
 
 Matthew Beckstrom is a librarian, author, professor, manager, privacy and security specialist, educator, and researcher with interests in libraries, education, privacy, security, intellectual freedom, information science, cyber- security, technology, and management.
