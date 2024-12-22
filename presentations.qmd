@@ -1,0 +1,18 @@
+---
+title: "Presentations"
+about:
+  template: trestles
+  image: ./images/presenter.jpg
+---
+
+-   “Privacy Audits for Public Libraries” Niche Academy Online Presentation, February 2023 “Preparing for Ransomware” Montana Library Association Fall Retreat, October 2022
+
+-   “Library Patrons’ Privacy: How to Navigate Concerns with Emerging Technology ” Niche Academy Online Presentation, April 2022
+
+-   “Intellectual Freedom: Taking Action ” Montana Academic Symposium, May 2022
+
+-   “Casting Light on the Dark Web” American Library Association Annual Conference, June 2019
+
+-   “Performing the Reference Interview ” Lewis & Clark Library Presentation, March 2019
+
+-   “Adopting Encryption Technologies ” Library and Information Technology Association Webinar, April 2018

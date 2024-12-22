@@ -1,5 +1,7 @@
 ---
-// image: ./images/matt.png
+about:
+  template: jolla
+  image: ./images/matt.png
 
 ---
   
