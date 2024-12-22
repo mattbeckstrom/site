@@ -4,10 +4,7 @@
     "href": "index.html",
     "title": "Matt Beckstrom",
     "section": "",
-    "text": "Matt Beckstrom\nMatthew Beckstrom is a librarian, author, professor, manager, privacy and security specialist, educator, and researcher with interests in libraries, education, privacy, security, intellectual freedom, information science, cyber- security, technology, and management.",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "Matt Beckstrom\nMatthew Beckstrom is a librarian, author, professor, manager, privacy and security specialist, educator, and researcher with interests in libraries, education, privacy, security, intellectual freedom, information science, cyber- security, technology, and management."
   },
   {
     "objectID": "about.html",
@@ -21,9 +18,34 @@
     "href": "writing.html",
     "title": "Writing",
     "section": "",
-    "text": "softblock: title: A Guide to Using the Anonymous Web in Libraries and Information Organizations: Enhancing Patron Privacy and Information Access authors: - Valenti, S.J. - Lund, B. D. - Beckstrom, M. A. year: 2022 preprint: https://arxiv.org/abs/2010.11332 published_url: https://proceedings.mlr.press/v130/arbour21a.html github: https://github.com/ddimmery/softblock\nLund, B.D., & Beckstrom, M.A. (2022). A guide to Using the Anonymous Web in Libraries and Information Organizations: Enhancing Patron Privacy and Information Access (Co-Author) , London, UK: Routledge. Valenti, S.J., Lund, B.D., & Beckstom, M.A. (2022). Library patrons privacy: Questions and answers. Santa Barbara, CA: ABC-Clio/Libraries Unlimited. Brady Lund & Matt Beckstrom (2021). The Integration of Tor into Library Services: An Appeal to the Core Mission and Values of Libraries, Public Library Quarterly, 40:1, 60-76, DOI: 10.1080/01616846.2019.1696078 Beckstrom, M (2019). Casting Light on the Dark Web: A Guide for Safe Exploration (Co-Author) Rowan & Littlefield. William Marden, Jason Griffey, Erin Berman, Sarah Houghton, Jessamyn West, Eric Hellman, T.J. Lamanna, & Matt Beckstrom (2019). Choose Privacy Week 2018: Big Data is Watching You. Journal of Intellectual Freedom & Privacy, 4:1, DOI: https://doi.org/10.5860/jifp.v4i1.6885. Beckstrom, M (2017). Protecting Patron Privacy: A LITA Guide (contributor) Rowan & Littlefield . Beckstrom, M (2016). LITA Privacy Checklists, Library and Information Technology Association. Beckstrom, M. (2015). Protecting Patron Privacy: Safe Practices for Public Computers. Libraries Unlimited.",
-    "crumbs": [
-      "Writing"
-    ]
+    "text": "Lund, B.D., & Beckstrom, M.A. (2022). A guide to Using the Anonymous Web in Libraries and Information Organizations: Enhancing Patron Privacy and Information Access (Co-Author) , London, UK: Routledge.\nValenti, S.J., Lund, B.D., & Beckstom, M.A. (2022). Library patrons privacy: Questions and answers. Santa Barbara, CA: ABC-Clio/Libraries Unlimited.\nBrady Lund & Matt Beckstrom (2021). The Integration of Tor into Library Services: An Appeal to the Core Mission and Values of Libraries, Public Library Quarterly, 40:1, 60-76, DOI: 10.1080/01616846.2019.1696078\nBeckstrom, M (2019). Casting Light on the Dark Web: A Guide for Safe Exploration (Co-Author) Rowan & Littlefield.\nWilliam Marden, Jason Griffey, Erin Berman, Sarah Houghton, Jessamyn West, Eric Hellman, T.J. Lamanna, &\nMatt Beckstrom (2019). Choose Privacy Week 2018: Big Data is Watching You. Journal of Intellectual Freedom & Privacy, 4:1, DOI: https://doi.org/10.5860/jifp.v4i1.6885.\nBeckstrom, M (2017). Protecting Patron Privacy: A LITA Guide (contributor) Rowan & Littlefield.\nBeckstrom, M (2016). LITA Privacy Checklists, Library and Information Technology Association.\nBeckstrom, M. (2015). Protecting Patron Privacy: Safe Practices for Public Computers. Libraries Unlimited."
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Matt Beckstrom",
+    "section": "",
+    "text": "title: Writings author: “” comments: false listing: contents: “index.qmd” sort: “date desc” type: “default” date-format: “iso” fields: [image, date, title, subtitle, author, summary, description, slides, extsite, repo]\npage-size: 6 template: talk-listing.ejs page-layout: full title-block-banner: true"
+  },
+  {
+    "objectID": "academics.html",
+    "href": "academics.html",
+    "title": "Academics",
+    "section": "",
+    "text": "Adjunct Professor - Helena College of the University of Montana\n\nCourses taught\nIntroduction to Computer Modeling - Helena College"
+  },
+  {
+    "objectID": "academics.html#courses-taught",
+    "href": "academics.html#courses-taught",
+    "title": "Academics",
+    "section": "",
+    "text": "/"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "“Privacy Audits for Public Libraries” Niche Academy Online Presentation, February 2023\n“Preparing for Ransomware” Montana Library Association Fall Retreat, October 2022\n“Library Patrons’ Privacy: How to Navigate Concerns with Emerging Technology” Niche Academy Online Presentation, April 2022\n“Intellectual Freedom: Taking Action” Montana Academic Symposium, May 2022\n“Casting Light on the Dark Web” American Library Association Annual Conference, June 2019\n“Performing the Reference Interview” Lewis & Clark Library Presentation, March 2019\n“Adopting Encryption Technologies” Library and Information Technology Association Webinar, April 2018\n“Privacy Update” Montana Library Association Annual Conference, April 2018\n“Providing Unique Collections” Montana Library Association Annual Conference, April 2018\n“Internet Service Providers and Copyright Issues for Libraries” Online webinar, April 2017\n“Implementing Internet Security” Montana Library Association Annual Conference, May 2017\n“Montana Library Association Intellectual Freedom Committee Forum” Montana Library Association Annual Conference, April 2017\n“Implementing Internet Security” Montana Library Association Fall Retreat, October 2016\n“Protecting Patron Privacy” Montana Library Association Annual Conference, April 2016\n“Implementing SSL” V-Users Annual Conference, April 2016\n“3D Printing in the Library” Montana Library Association Fall Retreat, October, 2015\n“Protecting Patron Privacy” Montana Library Association Fall Retreat, October 2015\n“Protecting yourself on the Internet” Broadvalleys Federation Annual Retreat, February 2015\n“Librarians as Censors? The Latest in Internet Filtering” Pacific Northwest Library Association Annual Conference, August 2014\n“Protecting your Privacy Online” Pacific Northwest Library Association Annual Conference, August 2014\n“Protecting your Privacy Online” Montana Library Association Annual Conference, April 2014\n“Protecting your Privacy Online” Montana Library Association Offline Interest Group Conference, February 2014\n“How to Protect your Privacy Online” Montana ACLU Presentation, November 2014\n“Strategic Planning” Montana Library Association Fall Retreat, October 2014\n“Internet Filtering in the Age of CIPA” MEA/MFT Annual Conference, October 2013\n“Risk, Reward, and Reinvention: Keeping Libraries Relevant in the Age of Innovation” Montana Library Association Annual Conference, April 2013\n“Librarians as Censors? Latest Developments in Internet Filtering” Montana Library Association Annual Conference, April 2013\n“Using Drupal at your Library” Montana Library Association Fall Retreat, October 2012\n“Installing and Configuring Drupal for Libraries” Montana Library Association Annual Conference, April 2012\n“Technology Trends” Montana Library Association Offline Interest Group Conference, February 2012\n“How to Stay Tech Savvy” Broadvalleys Federation Annual Retreat, March 2011\n“How to Stay Tech Savvy” Montana Library Association Fall Retreat, October 2011\n“Social Media in the Library” Montana Library Association Offline Interest Group Conference, February 2010\n“Social Media Policy and Planning” Broadvalleys Federation Annual Retreat, March 2010\n“Social Media Policy and Planning” Montana Library Association Fall Retreat, October 2010\n“Creating a Successful Technology Training Program” Montana Library Association Annual Conference, April 2009\n“What’s New in Open Source” Montana Library Association Offline Interest Group Conference, February 2009"
   }
 ]

@@ -1,0 +1,6 @@
+---
+title: "Academics"
+about:
+  template: trestles
+  image: ./images/academics2.jpg
+---
