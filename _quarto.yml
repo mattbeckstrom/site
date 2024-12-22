@@ -1,4 +1,4 @@
-projectZ:
+project:
   type: website
   output-dir: docs
 
@@ -10,14 +10,16 @@ website:
     logo: ./images/logo.png
     logo-alt: "MB logo"
     search: false
-    background: "light"
-    alignment: left
-    collapse: false
-    contents:
+    background: "dark"
+    right:
       - text: "Home"  
         href: index.qmd
       - text: "Writing"
         href: writing.qmd
+      - text: "Presentations"
+        href: presentations.qmd
+      - text: "Academics"
+        href: academics.qmd
       - text: "CV"
         href: file ./images/cv.pdf
         
@@ -28,8 +30,8 @@ website:
 
 format:
   html:
-    theme: 
-    - solar
+    page-layout: full
+    theme: solar
 
 
 
