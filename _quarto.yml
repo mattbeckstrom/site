@@ -21,7 +21,7 @@ website:
       - text: "Academics"
         href: academics.qmd
       - text: "CV"
-        href: file ./images/cv.pdf
+        href: file /images/cv.pdf
         
   page-footer:
       background: dark
