@@ -4,3 +4,26 @@ about:
   template: trestles
   image: ./images/academics2.jpg
 ---
+
+# Teaching Experience
+
+**2012 - Present: Adjunct Professor** - Helena College of the University of Montana\
+1115 North Roberts, Helena MT 59601
+
+# Courses Taught
+
+*Introduction to Computer Programming*
+
+*Introduction to Linux*
+
+*Computer Networking*
+
+*Network Security*
+
+*Microsoft Office*
+
+*Advanced Excel, Word*
+
+*Introduction to Computer Modeling*
+
+*Web Design*
