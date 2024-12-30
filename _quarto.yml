@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  google-analytics: "G-7RT2VV7DYD"
   title: "Matt Beckstrom"
   site-url: http://mattbeckstrom.com
   favicon: ./favicon.png
@@ -22,6 +23,10 @@ website:
         href: academics.qmd
       - text: "CV"
         href: file /images/cv.pdf
+<<<<<<< HEAD
+=======
+      - text: "Contact"
+>>>>>>> e6a3a57 (12-28)
         
   page-footer:
       background: dark
