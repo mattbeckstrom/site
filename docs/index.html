@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="././favicon.png" rel="icon" type="image/png">
+<link href="././images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,6 +68,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-7RT2VV7DYD"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-7RT2VV7DYD', { 'anonymize_ip': true});
+</script>
 
 
 </head>
@@ -108,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Academics</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./file ./images/cv.pdf"> 
+    <a class="nav-link" href="./file /images/cv.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -218,7 +227,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("http:\/\/mattbeckstrom\.com");
+      var filterRegex = new RegExp("https:\/\/mattbeckstrom\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
