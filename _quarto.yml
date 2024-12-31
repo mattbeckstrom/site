@@ -3,10 +3,11 @@ project:
   output-dir: docs
 
 website:
-  google-analytics: "G-7RT2VV7DYD"
+  google-analytics:
+    tracking-id: "G-7RT2VV7DYD"
   title: "Matt Beckstrom"
-  site-url: http://mattbeckstrom.com
-  favicon: ./favicon.png
+  site-url: https://mattbeckstrom.com
+  favicon: ./images/favicon.png
   navbar:
     logo: ./images/logo.png
     logo-alt: "MB logo"
@@ -23,11 +24,7 @@ website:
         href: academics.qmd
       - text: "CV"
         href: file /images/cv.pdf
-<<<<<<< HEAD
-=======
-      - text: "Contact"
->>>>>>> e6a3a57 (12-28)
-        
+
   page-footer:
       background: dark
       left: Copyright 2024, Matt Beckstrom
