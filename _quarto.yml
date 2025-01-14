@@ -4,7 +4,7 @@ project:
 
 website:
   google-analytics:
-    tracking-id: "G-7RT2VV7DYD"
+  tracking-id: "G-7RT2VV7DYD"
   title: "Matt Beckstrom"
   site-url: https://mattbeckstrom.com
   favicon: ./images/favicon.png
