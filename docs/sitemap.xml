@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://mattbeckstrom.com/writing.html</loc>
-    <lastmod>2024-12-24T03:04:24.861Z</lastmod>
+    <loc>https://mattbeckstrom.com/talks.html</loc>
+    <lastmod>2024-12-31T03:24:01.331Z</lastmod>
   </url>
   <url>
-    <loc>http://mattbeckstrom.com/index.html</loc>
-    <lastmod>2024-12-24T03:04:32.264Z</lastmod>
-  </url>
-  <url>
-    <loc>http://mattbeckstrom.com/publications/index.html</loc>
-    <lastmod>2024-12-16T03:46:47.080Z</lastmod>
-  </url>
-  <url>
-    <loc>http://mattbeckstrom.com/presentations.html</loc>
-    <lastmod>2024-12-24T03:04:46.973Z</lastmod>
-  </url>
-  <url>
-    <loc>http://mattbeckstrom.com/academics.html</loc>
-    <lastmod>2024-12-30T05:16:16.373Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mattbeckstrom.com/index.html</loc>
-    <lastmod>2024-12-24T03:04:32.264Z</lastmod>
+    <loc>https://mattbeckstrom.com/contact.html</loc>
+    <lastmod>2025-02-13T04:07:36.847Z</lastmod>
   </url>
   <url>
     <loc>https://mattbeckstrom.com/writing.html</loc>
     <lastmod>2024-12-24T03:04:24.861Z</lastmod>
   </url>
   <url>
-    <loc>https://mattbeckstrom.com/presentations.html</loc>
-    <lastmod>2024-12-24T03:04:46.973Z</lastmod>
+    <loc>https://mattbeckstrom.com/about.html</loc>
+    <lastmod>2024-12-14T03:12:44.000Z</lastmod>
   </url>
   <url>
     <loc>https://mattbeckstrom.com/academics.html</loc>
     <lastmod>2024-12-30T05:16:16.373Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mattbeckstrom.com/presentations.html</loc>
+    <lastmod>2024-12-24T03:04:46.973Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mattbeckstrom.com/index.html</loc>
+    <lastmod>2024-12-24T03:04:32.264Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mattbeckstrom.com/publications/index.html</loc>
+    <lastmod>2024-12-16T03:46:47.080Z</lastmod>
   </url>
 </urlset>

@@ -19,5 +19,8 @@
   },
   "talks.qmd": {
     "talks.html": "1aa5f02c"
+  },
+  "contact.qmd": {
+    "contact.html": "10e460a4"
   }
 }
