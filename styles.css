@@ -21,3 +21,7 @@ button {
   border: none;
   cursor: pointer;
 }
+.logo {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
