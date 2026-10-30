@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Matt Beckstrom</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="index.html"><span>~/</span>mattbeckstrom</a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="writing.html">Writing</a></li>
+        <li><a href="presentations.html">Presentations</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <section aria-label="Contact">
+    <div class="page-title">Contact</div>
+    <div class="contact-form">
+      <form id="contact-form">
+        <label for="cf-name">Name</label>
+        <input type="text" id="cf-name" required autocomplete="name">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" rows="5" required></textarea>
+        <button class="btn" type="submit">Compose Email</button>
+      </form>
+      <p class="contact-note" id="contact-note"></p>
+      <p class="contact-note">
+        This form runs entirely in your browser — it opens your email client with the
+        message pre-filled. No data is sent to, stored on, or processed by this website.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© <span id="year"></span> Matt Beckstrom</span>
+  <span>no trackers · no analytics · no third-party requests</span>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+/* Shared stylesheet for all pages.
+   Change --accent to recolor the whole site. */
+
+:root{
+  --bg:#0e1116;
+  --bg-alt:#151a21;
+  --surface:#1b222c;
+  --border:#28313d;
+  --text:#d7dde5;
+  --text-dim:#8b97a5;
+  --accent:#7ee0c3;
+  --accent-dim:#4a8f7c;
+  --max-w:960px;
+  --font-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:var(--font-body);line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--accent);color:var(--bg)}
+.wrap{max-width:var(--max-w);margin:0 auto;padding:0 24px}
+
+/* skip link */
+.skip{position:absolute;left:-9999px;color:var(--accent);z-index:99}
+.skip:focus{position:fixed;left:8px;top:8px}
+
+/* ---------- Nav ---------- */
+header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(14,17,22,.85);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{
+  font-family:var(--font-mono);font-weight:700;font-size:1.05rem;
+  color:var(--text);text-decoration:none;letter-spacing:.02em;
+}
+.logo span{color:var(--accent)}
+nav ul{display:flex;gap:4px;list-style:none;flex-wrap:wrap}
+nav a{
+  color:var(--text-dim);text-decoration:none;
+  padding:6px 12px;border-radius:6px;font-size:.92rem;
+  transition:color .15s,background .15s;
+}
+nav a:hover{color:var(--text);background:var(--bg-alt)}
+nav a[aria-current="page"]{color:var(--accent);background:var(--bg-alt)}
+
+/* ---------- Hero ---------- */
+.hero{padding:72px 0 56px;border-bottom:1px solid var(--border)}
+.hero .kicker{
+  font-family:var(--font-mono);font-size:.8rem;
+  color:var(--accent);letter-spacing:.12em;text-transform:uppercase;
+}
+.hero h1{font-size:clamp(1.9rem,5vw,2.9rem);font-weight:750;margin:10px 0 18px;letter-spacing:-.02em}
+.hero p{max-width:62ch;color:var(--text-dim);font-size:1.05rem}
+.hero-badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.badge{
+  font-family:var(--font-mono);font-size:.75rem;
+  padding:4px 12px;border:1px solid var(--border);
+  border-radius:999px;color:var(--text-dim);
+}
+
+/* ---------- Sections ---------- */
+main{padding:56px 0 72px}
+.page-title{
+  font-family:var(--font-mono);font-size:.8rem;
+  color:var(--accent);letter-spacing:.12em;text-transform:uppercase;margin-bottom:28px;
+}
+.page-title::after{content:"";display:block;width:44px;height:2px;background:var(--accent);margin-top:10px}
+h2.sub{font-size:1.15rem;margin:40px 0 16px}
+section > h2.sub:first-of-type{margin-top:0}
+
+/* ---------- Cards / lists ---------- */
+.item{
+  background:var(--bg-alt);border:1px solid var(--border);
+  border-radius:10px;padding:20px 22px;margin-bottom:14px;
+}
+.item h3{font-size:1rem;font-weight:650;line-height:1.45;margin-bottom:6px}
+.item .meta{font-family:var(--font-mono);font-size:.78rem;color:var(--text-dim)}
+.item p{font-size:.94rem;color:var(--text-dim);margin-top:8px}
+.item a{color:var(--accent);text-decoration:none}
+.item a:hover{text-decoration:underline}
+.inline-link{color:var(--accent);text-decoration:none}
+.inline-link:hover{text-decoration:underline}
+.year{
+  display:inline-block;font-family:var(--font-mono);font-size:.78rem;
+  color:var(--accent);border:1px solid var(--accent-dim);
+  border-radius:6px;padding:1px 8px;margin-right:10px;vertical-align:2px;
+}
+
+/* ---------- Filter input ---------- */
+.filter-row{margin-bottom:22px;display:flex;gap:12px;flex-wrap:wrap}
+.filter-row input{
+  flex:1;min-width:220px;background:var(--surface);border:1px solid var(--border);
+  border-radius:8px;padding:10px 14px;color:var(--text);
+  font-family:var(--font-mono);font-size:.88rem;
+}
+.filter-row input:focus{outline:2px solid var(--accent-dim);outline-offset:1px}
+.count{font-family:var(--font-mono);font-size:.8rem;color:var(--text-dim);align-self:center}
+
+/* ---------- CV ---------- */
+.cv-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-bottom:8px}
+.btn{
+  display:inline-block;background:none;border:1px solid var(--accent-dim);
+  color:var(--accent);font-family:var(--font-mono);font-size:.82rem;
+  padding:8px 16px;border-radius:8px;cursor:pointer;transition:background .15s;
+}
+.btn:hover{background:rgba(126,224,195,.08)}
+.cv-entry{padding:18px 0;border-bottom:1px solid var(--border)}
+.cv-entry:last-child{border-bottom:none}
+.cv-entry h3{font-size:1rem}
+.cv-entry .role{color:var(--accent);font-size:.92rem}
+.cv-entry .when{font-family:var(--font-mono);font-size:.78rem;color:var(--text-dim)}
+.cv-entry ul{margin:10px 0 0 18px;color:var(--text-dim);font-size:.92rem}
+
+/* ---------- Contact ---------- */
+.contact-form{
+  background:var(--bg-alt);border:1px solid var(--border);
+  border-radius:12px;padding:28px;max-width:560px;
+}
+.contact-form label{display:block;font-size:.85rem;margin:16px 0 6px;color:var(--text-dim)}
+.contact-form input,.contact-form textarea{
+  width:100%;background:var(--surface);border:1px solid var(--border);
+  border-radius:8px;padding:10px 12px;color:var(--text);
+  font-family:var(--font-body);font-size:.95rem;
+}
+.contact-form input:focus,.contact-form textarea:focus{outline:2px solid var(--accent-dim)}
+.contact-form .btn{margin-top:18px}
+.contact-note{font-size:.85rem;color:var(--text-dim);margin-top:14px;max-width:56ch}
+
+/* ---------- Footer ---------- */
+footer{
+  border-top:1px solid var(--border);padding:26px 0;
+  font-family:var(--font-mono);font-size:.75rem;color:var(--text-dim);
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
+}
+
+/* ---------- Mobile ---------- */
+@media(max-width:680px){
+  .nav{flex-direction:column;height:auto;padding:12px 0;gap:10px}
+  nav ul{justify-content:center}
+  .hero{padding:44px 0 36px}
+}
+
+/* ---------- Print: CV page ---------- */
+@media print{
+  header,footer,.btn,.filter-row{display:none!important}
+  body{background:#fff;color:#111}
+  .item,.cv-entry{border-color:#ddd}
+  .cv-entry .role,.page-title,.kicker,.badge,.year{color:#0a6e57;border-color:#0a6e57}
+  .page-title::after{background:#0a6e57}
+  .item p,.cv-entry ul,.item .meta{color:#333}
+}
