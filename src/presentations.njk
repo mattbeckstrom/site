@@ -1,0 +1,21 @@
+---
+layout: layout.njk
+title: Presentations
+description: Speaking engagements and presentations by Matt Beckstrom.
+permalink: "presentations.html"
+---
+{% from "cards.njk" import presCard %}
+
+<section aria-label="Presentations">
+  <div class="page-title">Presentations</div>
+  <div class="filter-row">
+    <input type="search" id="pres-filter" placeholder="filter by title, venue, or year…"
+           aria-label="Filter presentations" data-filter-for="pres-list">
+    <span class="count" id="pres-count"></span>
+  </div>
+  <div id="pres-list" class="filterable">
+    {% for p in site.presentations %}
+    {{ presCard(p) }}
+    {% endfor %}
+  </div>
+</section>

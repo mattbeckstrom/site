@@ -1,0 +1,23 @@
+---
+layout: layout.njk
+title: Home
+description: Matt Beckstrom — Systems and technology manager, librarian, author, professor, privacy and security specialist.
+---
+{% from "cards.njk" import writingCard, presCard %}
+
+<section aria-label="Home">
+  <div class="hero">
+    <div class="kicker">Systems &amp; Technology Manager · Librarian · Author · Professor · Privacy &amp; Security Specialist</div>
+    <h1>Matt Beckstrom</h1>
+    <p>{{ site.bio }}</p>
+    <div class="hero-badges">
+      {% for b in site.badges %}<span class="badge">{{ b }}</span>{% endfor %}
+    </div>
+  </div>
+
+  <h2 class="sub">Selected Publications</h2>
+  {% for w in site.writings.slice(0, 3) %}{{ writingCard(w) }}{% endfor %}
+
+  <h2 class="sub">Recent Speaking</h2>
+  {% for p in site.presentations.slice(0, 3) %}{{ presCard(p) }}{% endfor %}
+</section>

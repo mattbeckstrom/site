@@ -1,5 +1,4 @@
-/* Shared stylesheet for all pages.
-   Change --accent to recolor the whole site. */
+/* Change --accent to recolor the entire site. */
 
 :root{
   --bg:#0e1116;
@@ -23,11 +22,9 @@ body{
 ::selection{background:var(--accent);color:var(--bg)}
 .wrap{max-width:var(--max-w);margin:0 auto;padding:0 24px}
 
-/* skip link */
 .skip{position:absolute;left:-9999px;color:var(--accent);z-index:99}
 .skip:focus{position:fixed;left:8px;top:8px}
 
-/* ---------- Nav ---------- */
 header{
   position:sticky;top:0;z-index:50;
   background:rgba(14,17,22,.85);backdrop-filter:blur(10px);
@@ -48,7 +45,6 @@ nav a{
 nav a:hover{color:var(--text);background:var(--bg-alt)}
 nav a[aria-current="page"]{color:var(--accent);background:var(--bg-alt)}
 
-/* ---------- Hero ---------- */
 .hero{padding:72px 0 56px;border-bottom:1px solid var(--border)}
 .hero .kicker{
   font-family:var(--font-mono);font-size:.8rem;
@@ -63,7 +59,6 @@ nav a[aria-current="page"]{color:var(--accent);background:var(--bg-alt)}
   border-radius:999px;color:var(--text-dim);
 }
 
-/* ---------- Sections ---------- */
 main{padding:56px 0 72px}
 .page-title{
   font-family:var(--font-mono);font-size:.8rem;
@@ -72,8 +67,8 @@ main{padding:56px 0 72px}
 .page-title::after{content:"";display:block;width:44px;height:2px;background:var(--accent);margin-top:10px}
 h2.sub{font-size:1.15rem;margin:40px 0 16px}
 section > h2.sub:first-of-type{margin-top:0}
+.dim-note{color:var(--text-dim);font-size:.92rem}
 
-/* ---------- Cards / lists ---------- */
 .item{
   background:var(--bg-alt);border:1px solid var(--border);
   border-radius:10px;padding:20px 22px;margin-bottom:14px;
@@ -91,7 +86,6 @@ section > h2.sub:first-of-type{margin-top:0}
   border-radius:6px;padding:1px 8px;margin-right:10px;vertical-align:2px;
 }
 
-/* ---------- Filter input ---------- */
 .filter-row{margin-bottom:22px;display:flex;gap:12px;flex-wrap:wrap}
 .filter-row input{
   flex:1;min-width:220px;background:var(--surface);border:1px solid var(--border);
@@ -101,8 +95,8 @@ section > h2.sub:first-of-type{margin-top:0}
 .filter-row input:focus{outline:2px solid var(--accent-dim);outline-offset:1px}
 .count{font-family:var(--font-mono);font-size:.8rem;color:var(--text-dim);align-self:center}
 
-/* ---------- CV ---------- */
 .cv-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-bottom:8px}
+.cv-contact{color:var(--text-dim);font-size:.95rem}
 .btn{
   display:inline-block;background:none;border:1px solid var(--accent-dim);
   color:var(--accent);font-family:var(--font-mono);font-size:.82rem;
@@ -116,7 +110,15 @@ section > h2.sub:first-of-type{margin-top:0}
 .cv-entry .when{font-family:var(--font-mono);font-size:.78rem;color:var(--text-dim)}
 .cv-entry ul{margin:10px 0 0 18px;color:var(--text-dim);font-size:.92rem}
 
-/* ---------- Contact ---------- */
+.contact-card{
+  background:var(--bg-alt);border:1px solid var(--border);
+  border-radius:10px;padding:18px 22px;margin-bottom:20px;max-width:560px;
+}
+.contact-line{font-family:var(--font-mono);font-size:.9rem;color:var(--text-dim)}
+.contact-line .lbl{
+  display:inline-block;width:90px;color:var(--accent);
+  font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;
+}
 .contact-form{
   background:var(--bg-alt);border:1px solid var(--border);
   border-radius:12px;padding:28px;max-width:560px;
@@ -131,26 +133,23 @@ section > h2.sub:first-of-type{margin-top:0}
 .contact-form .btn{margin-top:18px}
 .contact-note{font-size:.85rem;color:var(--text-dim);margin-top:14px;max-width:56ch}
 
-/* ---------- Footer ---------- */
 footer{
   border-top:1px solid var(--border);padding:26px 0;
   font-family:var(--font-mono);font-size:.75rem;color:var(--text-dim);
   display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
 }
 
-/* ---------- Mobile ---------- */
 @media(max-width:680px){
   .nav{flex-direction:column;height:auto;padding:12px 0;gap:10px}
   nav ul{justify-content:center}
   .hero{padding:44px 0 36px}
 }
 
-/* ---------- Print: CV page ---------- */
 @media print{
   header,footer,.btn,.filter-row{display:none!important}
   body{background:#fff;color:#111}
   .item,.cv-entry{border-color:#ddd}
   .cv-entry .role,.page-title,.kicker,.badge,.year{color:#0a6e57;border-color:#0a6e57}
   .page-title::after{background:#0a6e57}
-  .item p,.cv-entry ul,.item .meta{color:#333}
+  .item p,.cv-entry ul,.item .meta,.dim-note{color:#333}
 }

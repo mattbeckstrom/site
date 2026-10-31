@@ -1,0 +1,21 @@
+---
+layout: layout.njk
+title: Writing
+description: Publications and papers by Matt Beckstrom.
+permalink: "writing.html"
+---
+{% from "cards.njk" import writingCard %}
+
+<section aria-label="Writing">
+  <div class="page-title">Writing</div>
+  <div class="filter-row">
+    <input type="search" id="writing-filter" placeholder="filter by title, author, or year…"
+           aria-label="Filter publications" data-filter-for="writing-list">
+    <span class="count" id="writing-count"></span>
+  </div>
+  <div id="writing-list" class="filterable">
+    {% for w in site.writings %}
+    {{ writingCard(w) }}
+    {% endfor %}
+  </div>
+</section>

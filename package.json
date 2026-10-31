@@ -1,0 +1,12 @@
+{
+  "name": "matt-beckstrom-site",
+  "version": "1.0.0",
+  "description": "Matt Beckstrom personal website — CV and portfolio",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

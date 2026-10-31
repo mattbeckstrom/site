@@ -1,0 +1,38 @@
+---
+layout: layout.njk
+title: CV
+description: Curriculum Vitae — Matthew A Beckstrom.
+permalink: "cv.html"
+---
+
+<section aria-label="Curriculum Vitae">
+  <div class="cv-head">
+    <div>
+      <div class="page-title">Curriculum Vitae</div>
+      <p class="cv-contact">Matthew A Beckstrom — {{ site.location }}</p>
+    </div>
+    <button class="btn" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+
+  {% for sec in site.cv.sections %}
+  <h2 class="sub">{{ sec.heading }}</h2>
+  {% for e in sec.entries %}
+  <div class="cv-entry">
+    {% if e.role %}<h3>{{ e.role }}</h3>{% endif %}
+    {% if e.org %}<div class="role">{{ e.org }}</div>{% endif %}
+    {% if e.when %}<div class="when">{{ e.when }}</div>{% endif %}
+    {% if e.points %}
+    <ul>
+      {% for pt in e.points %}<li>{{ pt }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+  {% endfor %}
+
+  <h2 class="sub">Publications &amp; Presentations</h2>
+  <p class="dim-note">
+    See the <a class="inline-link" href="/writing.html">Writing</a>
+    and <a class="inline-link" href="/presentations.html">Presentations</a> pages for full lists.
+  </p>
+</section>

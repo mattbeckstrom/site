@@ -1,0 +1,19 @@
+---
+layout: layout.njk
+title: Academics
+description: Teaching experience and courses at Helena College.
+permalink: "academics.html"
+---
+
+<section aria-label="Academics">
+  <div class="page-title">Academics</div>
+  <div class="item">
+    <h3><span class="year">{{ site.teaching.years }}</span>{{ site.teaching.role }}</h3>
+    <p class="meta">{{ site.teaching.place }}</p>
+  </div>
+
+  <h2 class="sub">Courses Taught</h2>
+  {% for c in site.teaching.courses %}
+  <div class="item"><h3>{{ c }}</h3></div>
+  {% endfor %}
+</section>

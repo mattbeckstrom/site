@@ -1,0 +1,23 @@
+{# Reusable card macros — used by both the home page teasers
+   and the full Writing / Presentations pages. #}
+
+{% macro writingCard(w) %}
+<div class="item">
+  <h3><span class="year">{{ w.year }}</span>{{ w.authors }}</h3>
+  <p style="margin-top:2px">
+    <strong style="color:var(--text)">{{ w.title }}</strong>
+    {%- if w.url %} <a href="{{ w.url }}" target="_blank" rel="noopener">[link]</a>{% endif -%}
+    <br>{{ w.detail }}
+  </p>
+</div>
+{% endmacro %}
+
+{% macro presCard(p) %}
+<div class="item">
+  <h3><span class="year">{{ p.year }}</span>{{ p.title }}</h3>
+  <p class="meta">
+    {%- if p.co %}<span class="year">{{ p.co }}</span> {% endif -%}
+    {{ p.venue }} · {{ p.month }} {{ p.year }}
+  </p>
+</div>
+{% endmacro %}

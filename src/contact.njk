@@ -1,0 +1,44 @@
+---
+layout: layout.njk
+title: Contact
+description: Contact Matt Beckstrom.
+permalink: "contact.html"
+---
+
+<section aria-label="Contact">
+  <div class="page-title">Contact</div>
+
+  <div class="contact-card">
+    <p class="contact-line"><span class="lbl">Email</span>
+      <a class="inline-link" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p class="contact-line"><span class="lbl">Location</span> {{ site.location }}</p>
+  </div>
+
+  <div class="contact-form">
+    <form id="contact-form" data-email="{{ site.email }}">
+      <label for="cf-name">Name</label>
+      <input type="text" id="cf-name" required autocomplete="name">
+      <label for="cf-message">Message</label>
+      <textarea id="cf-message" rows="5" required></textarea>
+      <button class="btn" type="submit">Compose Email</button>
+    </form>
+    <p class="contact-note">
+      This form runs entirely in your browser — it opens your email client with the
+      message pre-filled. No data is sent to, stored on, or processed by this website.
+    </p>
+  </div>
+</section>
+
+{% block scripts %}
+<script>
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const email = this.dataset.email;
+  const name = document.getElementById("cf-name").value.trim();
+  const msg = document.getElementById("cf-message").value;
+  location.href = "mailto:" + email +
+    "?subject=" + encodeURIComponent("Website contact — " + name) +
+    "&body=" + encodeURIComponent(msg);
+});
+</script>
+{% endblock %}
